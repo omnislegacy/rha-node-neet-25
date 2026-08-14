@@ -1,0 +1,16 @@
+{
+  "name": "rha-node-neet-25",
+  "version": "1.0.0",
+  "description": "RHA NEET Quota Chamber – Medical Seat Conversion Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["rha", "neet", "medical", "quota", "gateway", "node"],
+  "author": "omnislegacy",
+  "license": "MIT",
+  "config": {
+    "ENDPOINT_URI": "https://decoderha.pages.dev/",
+    "STATIC_PASSKEY": "RSRX-INDIA"
+  }
+}
